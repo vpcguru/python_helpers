@@ -71,6 +71,6 @@ for i in range(0, num_of_files):
         shutil.move(current_file_path, new_file_path)
     else:
         print("Copy file from \n" + current_file_path + " \ntime stamp " + T_stamp + " " + "\n to \n" + new_file_path)
-        shutil.copy(current_file_path,new_file_path)
+        shutil.copy2(current_file_path,new_file_path)
 
 
